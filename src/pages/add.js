@@ -1,11 +1,10 @@
-import Nav from '../components/nav.js';
+import Nav from '../components/layout/nav.js';
 import Button from '../components/button';
-
+import Card from '../components/layout/card.js';
 function AddOn(){
     return(
-        <>
+        <Card>
     <Nav/>
-    <main>
         <h1>Pick add-ons</h1>
         <p>Add-ons help enhance your gaming experience</p>
         <form >
@@ -31,8 +30,8 @@ function AddOn(){
         <div>
             <Button name='Go back'/> <Button name='Next Step'/> 
         </div>
-    </main>
-    </>
+    </Card>
+
     );
 }
     export default AddOn;

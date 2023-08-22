@@ -1,10 +1,10 @@
 import Button from '../components/button';
-import Nav from '../components/nav.js'
+import Nav from '../components/layout/nav.js';
+import Card from '../components/layout/card.js';
 function Info(){
     return(
-        <>
+        <Card>
         <Nav/>
-       <main>
         <form method='get'>
             <label><p>Name</p>
                 <input type='text' required/>
@@ -15,12 +15,13 @@ function Info(){
             <label><p>Phone number</p>
                 <input type='phone' required/>
             </label>
-        </form>
-        <div>
+            <div>
             <Button name='Next Step'/> 
         </div>
-       </main>
-        </>
+        </form>
+        
+       </Card>
+    
     )
 }
 

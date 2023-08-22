@@ -1,11 +1,12 @@
-import Nav from '../components/nav.js';
+import Nav from '../components/layout/nav.js';
 import Button from '../components/button';
+import Card from '../components/layout/card.js';
 
 function Plan(){
     return(
         <>
     <Nav/>
-    <main>
+    <Card>
         <h1>Select your plan</h1>
         <p>You have the option of monthly or yearly billing</p>
         <form >
@@ -28,7 +29,7 @@ function Plan(){
         <div>
             <Button name='Go back'/> <Button name='Next Step'/> 
         </div>
-    </main>
+    </Card>
     </>
     );
 }

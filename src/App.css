@@ -2,3 +2,15 @@
   margin: 0;
   box-sizing: border-box;
  }
+<<<<<<< HEAD
+=======
+ button.action{
+    background-color: #052859;
+    color: white;
+  }
+  button.return{
+    background-color: white;
+    color: rgba(255, 255, 255, 0.322);
+  }
+  
+>>>>>>> cc7f4fa (Updated nav bar and Info component)

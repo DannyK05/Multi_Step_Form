@@ -25,6 +25,7 @@ nav.nav-bar{
  .nav-bar li{
     margin-bottom: 30px;
     list-style: none;
+<<<<<<< HEAD
  }
  .nav-bar li::before{
     content: counter(i);
@@ -34,6 +35,30 @@ nav.nav-bar{
     font-family: 'Ubuntu-Medium';
  }
 
+=======
+    counter-reset: i;
+ }
+ .nav-bar li::before{
+    counter-increment: i+1;
+    content:  counter(i);
+    border: 1px solid rgba(255, 255, 255, 0.548);
+    border-radius: 50%;
+    padding: 2px 4px;
+    display: inline-block;
+    margin-right: 10px;
+ }
+ .nav-bar li span{
+   display: inline-block;
+ }
+ .nav-bar li .step{
+    font-size: 12px;
+    font-family: 'Ubuntu-Regular';
+ }
+
+.title{
+   margin-bottom: 40px;
+}
+>>>>>>> cc7f4fa (Updated nav bar and Info component)
  .title h1{
    color: #052859;
  }
@@ -47,4 +72,8 @@ button{
    border-radius: 5px;
    border: 0px;
    float: right;
+<<<<<<< HEAD
+=======
+   cursor: pointer;
+>>>>>>> cc7f4fa (Updated nav bar and Info component)
 }

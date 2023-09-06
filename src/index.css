@@ -18,12 +18,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+<<<<<<< HEAD
 button.action{
   background-color: #052859;
 }
 button.return{
   background-color: white;
 }
+=======
+>>>>>>> cc7f4fa (Updated nav bar and Info component)
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

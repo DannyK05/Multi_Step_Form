@@ -11,22 +11,35 @@ function AddOn(){
             <Title title='Pick add-ons'
             sub='Add-ons help enhance your gaming experience'/>
             
+<<<<<<< HEAD
             <form >
                 <div>
+=======
+            <form className='addOn' >
+                <div className='box'>
+>>>>>>> cc7f4fa (Updated nav bar and Info component)
                     <label>
                         <input type='checkbox'/>
                         <h5>Online Service</h5>
                         <p>Access to multiplayer games</p>
                     </label>
                 </div>
+<<<<<<< HEAD
                 <div>
+=======
+                <div className='box'>
+>>>>>>> cc7f4fa (Updated nav bar and Info component)
                     <label>
                         <input type='checkbox'/>
                         <h5>Larger Storage</h5>
                         <p>Extra 1TB of cloud save</p>
                     </label>
                 </div>
+<<<<<<< HEAD
                 <div>
+=======
+                <div className='box'>
+>>>>>>> cc7f4fa (Updated nav bar and Info component)
                     <label>
                         <input type='checkbox'/>
                         <h5>Customizable Profile</h5>

@@ -8,7 +8,7 @@ function Info(){
         <Card>
             <Nav/>
             <div className='container'>
-                <Title title='Personal Info'
+                <Title title='Personal info'
                 sub='Please provide your name, email address and phone number.' />
                 <form className='info'  method='get'>
                 

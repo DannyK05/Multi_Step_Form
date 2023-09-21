@@ -1,13 +1,23 @@
  *{
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Ubuntu-Regular';
  }
+
  button.action{
-    background-color: #052859;
+    background-color: #032859;
     color: white;
+    font-weight: bold;
+  }
+  button.action:hover{
+    background-color: #174A8B;
   }
   button.return{
     background-color: white;
-    color: rgba(255, 255, 255, 0.322);
+    color: #9A9AA3;
+    font-weight: bold;
+  }
+  button.return:hover{
+    color: #174A8B;
   }
   

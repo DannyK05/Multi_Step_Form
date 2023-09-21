@@ -23,26 +23,26 @@ function AddOn(){
                 <div className='box'>
                 <input id='services' type='checkbox'/>
                     <label for="services">
-                        <h5>Online Service</h5>
+                        <h4>Online Service</h4>
                         <p>Access to multiplayer games</p>
                     </label>
                 </div>
                 <div className='box'>
                 <input id="storage" type='checkbox'/>
                     <label for="storage">
-                        <h5>Larger Storage</h5>
+                        <h4>Larger Storage</h4>
                         <p>Extra 1TB of cloud save</p>
                     </label>
                 </div>
                 <div className='box'>
                 <input id="profile" type='checkbox'/>
                     <label for='profile'>
-                        <h5>Customizable Profile</h5>
+                        <h4>Customizable Profile</h4>
                         <p>Custom these on your profile</p>
                     </label>
                 </div>
             </form>
-            <div>
+            <div className='button-div'>
                 <Button className='return' name='Go back'/> <Button className='action' name='Next Step'/> 
             </div>
         </div>

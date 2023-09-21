@@ -15,7 +15,6 @@ nav.nav-bar{
     background-size: cover;
     padding: 20px;
     height: 80vh;
-    font-family: 'Ubuntu-Bold';
     letter-spacing: 1px;
     text-transform: uppercase;
     color: white;
@@ -27,12 +26,15 @@ nav.nav-bar{
     list-style: none;
     counter-reset: i;
  }
+ .nav-bar li p{
+   font-family: 'Ubuntu-Bold', sans-serif;
+ }
  .nav-bar li::before{
     counter-increment: i+1;
     content:  counter(i);
     border: 1px solid rgba(255, 255, 255, 0.548);
     border-radius: 50%;
-    padding: 2px 4px;
+    padding: 4px 8px;
     display: inline-block;
     margin-right: 10px;
  }
@@ -40,18 +42,21 @@ nav.nav-bar{
    display: inline-block;
  }
  .nav-bar li .step{
-    font-size: 12px;
-    font-family: 'Ubuntu-Regular';
+    font-size: 14px;
+    font-family: 'Ubuntu-Bold', sans-serif;
+    color: #f7f3f38e;
  }
 
 .title{
    margin-bottom: 40px;
 }
  .title h1{
-   color: #052859;
+   color: #002752;
+   font-family: 'Ubuntu-Bold', sans-serif;
  }
  .title p{
-   color: #00000041;
+   color: #A1A2A7;
+   font-family: 'Ubuntu-Regular', sans-serif;
  }
 
 button{
@@ -59,6 +64,5 @@ button{
    width: 100px;
    border-radius: 5px;
    border: 0px;
-   float: right;
    cursor: pointer;
 }

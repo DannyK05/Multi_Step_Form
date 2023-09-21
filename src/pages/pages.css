@@ -1,8 +1,15 @@
 .container{
     height: 80vh;
+    width: 40%;
 }
-.info label{
+.button-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info label p{
     z-index: 0.5;
+    margin-bottom: 6px;
 }
 .info input{
     height: 40px;
@@ -13,7 +20,7 @@
     cursor: pointer;
 }
 
-.form input:hover, .form input:active{
+.info input:hover, .info input:active{
     border:1px solid #330559;
 }
 
@@ -31,4 +38,36 @@
  }
   .addOn .box:hover, .addOn .box:active{
     border: 1px solid #7417c0;
+  }
+  .addOn .box label h4{
+    font-family: 'Ubuntu-Medium', sans-serif;
+  }
+
+  /* Plan */
+
+  .plan-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  .plan-options .option img{
+    margin-bottom: 20px;
+    width: 30%;
+  }
+  .plan-options .option{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid rgba(0, 0, 0, 0.233);
+    border-radius: 20px;
+    padding: 10px;
+    width: 180px;
+    margin-right: 20px;
+    aspect-ratio: 1/1.2;
+    height: 100%;
+  }
+
+  .plan-options .option:hover{
+    border-color: #7417c0;
   }

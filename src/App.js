@@ -6,11 +6,7 @@ import './App.css';
 
 function App() {
   return (
-<<<<<<< HEAD
-   <Plan/>
-=======
    <AddOn/>
->>>>>>> cc7f4fa (Updated nav bar and Info component)
   );
 }
 

@@ -25,17 +25,6 @@ nav.nav-bar{
  .nav-bar li{
     margin-bottom: 30px;
     list-style: none;
-<<<<<<< HEAD
- }
- .nav-bar li::before{
-    content: counter(i);
- }
- .nav-bar li span{
-    font-size: 12px;
-    font-family: 'Ubuntu-Medium';
- }
-
-=======
     counter-reset: i;
  }
  .nav-bar li::before{
@@ -58,7 +47,6 @@ nav.nav-bar{
 .title{
    margin-bottom: 40px;
 }
->>>>>>> cc7f4fa (Updated nav bar and Info component)
  .title h1{
    color: #052859;
  }
@@ -72,8 +60,5 @@ button{
    border-radius: 5px;
    border: 0px;
    float: right;
-<<<<<<< HEAD
-=======
    cursor: pointer;
->>>>>>> cc7f4fa (Updated nav bar and Info component)
 }

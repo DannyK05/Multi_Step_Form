@@ -4,6 +4,15 @@ import Card from '../components/layout/card.js';
 import Title from '../components/layout/title.js';
 
 function Plan(){
+    let monthly =[
+        '+$1/mo',
+        '+$2/mo'
+    ]
+    let yearly =[
+    '+10/yr',
+    '+20/yr'
+    ]
+    
     return(
         <Card>
             <Nav/>
